@@ -29,7 +29,7 @@
 {if !empty($tinyMceConfig.useInvalidElements)}
         invalid_elements: "{$tinyMceConfig.invalidElements|escape:javascript}",
 {/if}
-        skin_variant : "{if !empty($tinyMceConfig.skinVariant)}{$tinyMceConfig.skinVariant}{else}shopware{/if}",
+        skin_variant : "{if !empty($tinyMceConfig.skinVariant)}{$tinyMceConfig.skinVariant|escape:javascript}{else}shopware{/if}",
         template_external_list_url: "{url controller=tinyMce action=getRawTemplateList}?__csrf_token=" + Ext.CSRFService.getToken()
     });
 </script>
