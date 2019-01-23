@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    <services>
+        <service id="she_advanced_tiny_mce.config" class="Shopware\Components\Plugin\ConfigReader">
+            <factory service="shopware.plugin.cached_config_reader" method="getByPluginName"/>
+            <argument type="string">%she_advanced_tiny_mce.plugin_name%</argument>
+        </service>
+        <service id="she_advanced_tiny_mce.subscribers.backend"
+                 class="SheAdvancedTinyMce\Subscribers\BackendSubscriber">
+            <argument>%she_advanced_tiny_mce.plugin_dir%</argument>
+            <argument type="service" id="she_advanced_tiny_mce.config"/>
+            <tag name="shopware.event_subscriber"/>
+        </service>
+    </services>
+</container>
