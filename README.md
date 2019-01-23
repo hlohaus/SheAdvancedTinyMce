@@ -5,7 +5,7 @@
 Features:
 - Configure templates and use it in the editor
 - All editor configurations can be edit over backend
-- Add javascript in the description
+- Add javascript in your html description
 
 ## Requirements
 
