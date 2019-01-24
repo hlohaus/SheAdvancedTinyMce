@@ -8,4 +8,14 @@
     <link>https://she-business.com/</link>
     <author>S.HE Business GmbH</author>
     <compatibility minVersion="5.2.0" />
+    <changelog version="1.3.4">
+        <changes lang="en">
+            <![CDATA[
+                <div>Initial release</div>
+                - Configure templates and use it in the editor.<br>
+                - All editor configurations can be edit over backend.<br>
+                - Add javascript in your html description.
+            ]]>
+        </changes>
+    </changelog>
 </plugin>
