@@ -10,5 +10,5 @@ var tinyMCETemplateList = new Array(
 );
 
 $(document).ready(function() {
-    $("body").css('margin', 0);
+    $("body").css('margin-top', -10);
 });
