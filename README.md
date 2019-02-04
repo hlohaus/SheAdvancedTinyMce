@@ -14,7 +14,7 @@ Features:
 
 ## Installation
 
-- Download latest release
+- Download latest release from [Store](https://store.shopware.com/en/she4439287947287f/advanced-tinymce.html)
 - Extract the zip file in `shopware_folder/custom/plugins/`
 
 
