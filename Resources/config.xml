@@ -116,5 +116,10 @@ visualchars,nonbreaking,xhtmlxtras,template]]></value>
             <label>Konfiguration „invalid_elements“</label>
             <value>script,applet</value>
         </element>
+        <element type="boolean">
+            <name>useVerifyHtml</name>
+            <label>Konfiguration „verify_html“ verwenden</label>
+            <value>1</value>
+        </element>
     </elements>
 </config>
