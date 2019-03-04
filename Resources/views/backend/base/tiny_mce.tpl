@@ -3,7 +3,6 @@
 <script type="text/javascript">
     Shopware.form.field.TinyMCE.setGlobalSettings({
 {if !empty($tinyMceConfig.useThemeAdvancedButtons)}
-
         theme_advanced_buttons1: "{$tinyMceConfig.themeAdvancedButtons1|strip|replace:" ":""|escape:javascript}",
         theme_advanced_buttons2: "{$tinyMceConfig.themeAdvancedButtons2|strip|replace:" ":""|escape:javascript}",
         theme_advanced_buttons3: "{$tinyMceConfig.themeAdvancedButtons3|strip|replace:" ":""|escape:javascript}",
@@ -29,6 +28,8 @@
 {if !empty($tinyMceConfig.useInvalidElements)}
         invalid_elements: "{$tinyMceConfig.invalidElements|escape:javascript}",
 {/if}
+        verify_html: {if empty($tinyMceConfig.useVerifyHtml)}false{else}true{/if},
+
         skin_variant : "{if !empty($tinyMceConfig.skinVariant)}{$tinyMceConfig.skinVariant|escape:javascript}{else}shopware{/if}",
         template_external_list_url: "{url controller=tinyMce action=getRawTemplateList}?__csrf_token=" + Ext.CSRFService.getToken()
     });
