@@ -3,7 +3,7 @@
         xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
     <label lang="de">Erweiterter TinyMCE</label>
     <label lang="en">Advanced TinyMCE</label>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <license>MIT</license>
     <link>https://she-business.com/</link>
     <author>S.HE Business GmbH</author>
@@ -39,6 +39,18 @@
             <![CDATA[
                 - Button-Position bei der Template-Auswahl verbessert.<br>
                 - Unterstützung für mehrere Vorlagen.
+            ]]>
+        </changes>
+    </changelog>
+    <changelog version="1.0.2">
+        <changes lang="en">
+            <![CDATA[
+                - Add "verify_html" configuration
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+                - Fügt "verify_html" Konfiguration hinzu
             ]]>
         </changes>
     </changelog>
