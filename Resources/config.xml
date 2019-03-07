@@ -36,7 +36,7 @@
             <label>Konfiguration „extended_valid_elements“</label>
             <value><![CDATA[font[size],
 iframe[frameborder|src|width|height|name|align|allowfullscreen|id|class|style],
-script[language|type|src],
+script[language|type|src|id|async],
 object[width|height|classid|codebase|ID|value],param[name|value],
 embed[name|src|type|wmode|width|height|style|allowScriptAccess|menu|quality|pluginspage],
 video[autoplay|class|controls|id|lang|loop|onclick|ondblclick|onkeydown|onkeypress|onkeyup|onmousedown|onmousemove|onmouseout|onmouseover|onmouseup|preload|poster|src|style|title|width|height],
