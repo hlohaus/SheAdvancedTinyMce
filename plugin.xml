@@ -2,14 +2,14 @@
 <plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
     <label lang="de">Erweiterter TinyMCE</label>
-    <label lang="en">Advanced TinyMCE</label>
-    <version>1.1.0</version>
+    <label>Advanced TinyMCE</label>
+    <version>1.1.1</version>
     <license>MIT</license>
     <link>https://she-business.com/</link>
     <author>S.HE Business GmbH</author>
     <compatibility minVersion="5.2.0" />
     <changelog version="1.0.0">
-        <changes lang="en">
+        <changes>
             <![CDATA[
                 <div>Initial release</div>
                 - Configure templates and use it in the editor.<br>
@@ -29,7 +29,7 @@
         </changes>
     </changelog>
     <changelog version="1.0.1">
-        <changes lang="en">
+        <changes>
             <![CDATA[
                 - Fix styles in template selection.<br>
                 - Fix many templates
@@ -43,7 +43,7 @@
         </changes>
     </changelog>
     <changelog version="1.0.2">
-        <changes lang="en">
+        <changes>
             <![CDATA[
                 - Add "verify_html" configuration
             ]]>
@@ -55,7 +55,7 @@
         </changes>
     </changelog>
     <changelog version="1.1.0">
-        <changes lang="en">
+        <changes>
             <![CDATA[
                 - No changes
             ]]>
@@ -63,6 +63,18 @@
         <changes lang="de">
             <![CDATA[
                 - Keine Änderungen
+            ]]>
+        </changes>
+    </changelog>
+    <changelog version="1.1.1">
+        <changes>
+            <![CDATA[
+                - Add script attributes
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+                - Fügt weitere Attribute beim Script-Tag hinzu
             ]]>
         </changes>
     </changelog>
