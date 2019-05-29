@@ -43,11 +43,10 @@ class Shopware_Controllers_Backend_TinyMce extends Shopware_Controllers_Backend_
             (int) $this->Request()->getParam('limit', 30),
             (int) $this->Request()->getParam('start', 0)
         );
-        $data = $query->getArrayResult();
         $this->View()->assign([
             'success' => true,
-            'data' => $data,
-            'total' => $this->getModelManager()->getQueryCount($query)
+            'total' => $this->getModelManager()->getQueryCount($query),
+            'data' => $query->getArrayResult(),
         ]);
     }
 

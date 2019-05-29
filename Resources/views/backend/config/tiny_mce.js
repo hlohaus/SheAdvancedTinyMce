@@ -15,7 +15,7 @@ Ext.define('Shopware.apps.Config.store.form.TinyMce', {
     model: 'Shopware.apps.Config.model.form.TinyMce',
     remoteSort: true,
     remoteFilter: true,
-    pageSize: 20,
+    pageSize: 1000,
     proxy: {
         type: 'ajax',
         url: '{url controller=tinyMce action=getTemplateList}',
@@ -26,7 +26,8 @@ Ext.define('Shopware.apps.Config.store.form.TinyMce', {
         },
         reader: {
             type: 'json',
-            root: 'data'
+            root: 'data',
+            totalProperty:'total'
         }
     }
 });
