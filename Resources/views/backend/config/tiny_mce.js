@@ -118,11 +118,10 @@ Ext.define('Shopware.apps.Config.view.form.TinyMce', {
             fieldLabel: '{s name=tinymce/detail/content}Content{/s}',
             style: 'padding-bottom: 5px'
         }, {
-            xtype: 'codemirror',
+            xtype: 'codemirrorfield',
             name: 'content',
-            mode: 'htmlmixed',
+            mode: 'html',
             anchor: '100%',
-            height: '240px',
             hideLabel: true,
             fieldLabel: '{s name=tinymce/detail/content}Content{/s}'
         }];
