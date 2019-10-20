@@ -7,8 +7,8 @@
     <license>MIT</license>
     <link>https://she-business.com/</link>
     <author>S.HE Business GmbH</author>
-    <compatibility minVersion="5.2.0" />
-    <changelog version="1.0.0">
+    <compatibility minVersion="5.6.0" />
+    <changelog version="1.0.1">
         <changes>
             <![CDATA[
                 <div>Initial release</div>
@@ -87,6 +87,18 @@
         <changes lang="de">
             <![CDATA[
                 - Behebt Seitenwechsel bei Vorlagen
+            ]]>
+        </changes>
+    </changelog>
+    <changelog version="1.1.3">
+        <changes>
+            <![CDATA[
+                - Add support for 5.6
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+                - Fügt Unterstützung für 5.6 hinzu
             ]]>
         </changes>
     </changelog>
